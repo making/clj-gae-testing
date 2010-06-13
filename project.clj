@@ -1,16 +1,13 @@
-(defproject am.ik/clj-gae-testing "0.1.0"
+(defproject am.ik/clj-gae-testing "0.2.0-SNAPSHOT"
   :description "a Test library on Google App Engine for Clojure"
-  :repositories {"gaejtools" "http://gaejtools.sourceforge.jp/maven/repository"}
+  :repositories {"maven.seasar.org" "http://maven.seasar.org/maven2"}
   :dependencies [[org.clojure/clojure "1.1.0"]
                  [org.clojure/clojure-contrib "1.1.0"]
-                 [com.google.appengine/appengine-api-1.0-sdk "1.3.2"]
-                 [com.google.appengine/appengine-testing "1.3.2"]
-                 [com.google.appengine/appengine-api-labs "1.3.2"]
-                 [com.google.appengine/appengine-api-1.0-stubs "1.3.2"]]
-  :dev-dependencies [;; [com.google.appengine/appengine-api-1.0-runtime "1.3.2"]
-                     ;; [com.google.appengine/appengine-tools-sdk "1.3.2"]
-                     ;; [com.google.appengine/appengine-api-1.0-runtime-shared "1.3.2"]
+                 [com.google.appengine/appengine-api-1.0-sdk "1.3.4"]
+                 [com.google.appengine/appengine-testing "1.3.4"]
+                 [com.google.appengine/appengine-api-labs "1.3.4"]
+                 [com.google.appengine/appengine-api-stubs "1.3.4"]]
+  :dev-dependencies [;; [com.google.appengine/appengine-local-runtime "1.3.4"]
                      ;; [leiningen/lein-swank "1.1.0"]
-                     [lein-clojars "0.5.0-SNAPSHOT"]
-                     ] 
+                     [lein-clojars "0.5.0-SNAPSHOT"]] 
   :namespaces [am.ik.clj-gae-testing.test-utils])

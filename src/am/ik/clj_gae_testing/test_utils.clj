@@ -11,10 +11,11 @@
            Entity Key KeyFactory KeyRange
            Query Query$FilterOperator Query$SortDirection 
            PreparedQuery FetchOptions FetchOptions$Builder 
-           Transaction]
+           Transaction
+           Cursor]
           [com.google.appengine.api.users 
            User UserService 
-           UserServiceFactory FederatedLoginUser])
+           UserServiceFactory])
   nil)
 
 (def get-helper (global-singleton 
