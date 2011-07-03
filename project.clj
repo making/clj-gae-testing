@@ -1,4 +1,4 @@
-(defproject am.ik/clj-gae-testing "0.2.0-SNAPSHOT"
+(defproject am.ik/clj-gae-testing "0.2.0"
   :description "a Test library on Google App Engine for Clojure"
   :repositories {"maven.seasar.org" "http://maven.seasar.org/maven2"}
   :dependencies [[org.clojure/clojure "1.2.1"]
